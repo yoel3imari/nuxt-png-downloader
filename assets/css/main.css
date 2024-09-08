@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body, #app, #root {
+  @apply w-full h-full
+}
