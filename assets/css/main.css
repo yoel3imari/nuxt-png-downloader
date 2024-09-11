@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
-html, body, #app, #root {
-  @apply w-full h-full
+html, body, #app, #root, #__nuxt {
+  @apply w-full h-full font-['Noto_sans'] tracking-wide
+}
+
+.tw-input {
+  @apply bg-primary px-3 py-2 rounded-md text-secondary font-bold min-w-[100px]
 }

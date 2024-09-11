@@ -13,16 +13,22 @@
     "@nuxt/image": "^1.8.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@pinia/nuxt": "^0.5.4",
-    "nuxt": "^3.13.0",
+    "@vueuse/core": "^11.0.3",
+    "@vueuse/nuxt": "^11.0.3",
+    "axios": "^1.7.7",
+    "jose": "^5.8.0",
+    "nuxt": "^3.13.1",
     "pinia": "^2.2.2",
+    "primevue": "^4.0.6",
     "vue": "latest"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^0.5.5",
+    "@nuxt/eslint": "^0.5.6",
+    "@primevue/nuxt-module": "^4.0.6",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "postcss": "^8.4.45",
     "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   }
 }
